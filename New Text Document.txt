@@ -1,0 +1,24 @@
+we are going to start to make a simple snake game as a project to learn the basics of c++ 
+we'll be using dev c++ to code our game
+so now here we go
+to make a game basically we need 4 raw functions that are 
+1.setup
+2.draw
+3.input
+4.logic
+besides all these functions we'll need to code the basic function ; main function
+we'll be coding each and every function one by one
+we'll declare a boolean variable named "gameover". as its name this variable will be used as the trigger button adn will determine when to stop and start the game
+then we need to set the dimentions of the map in snake game
+just like height and widh of the box
+and also we have to set the dimentions of the head of the snake and of the fruit
+and to indicate score there is also a score variable
+after all this we need to track the direction of the snake so that we can configure its controls loke if we press A it goes left but it should go continuosly toward left we need not to press A multiple times
+we need to use enumerations to do this
+as i don't know much about this i'll study this 
+enum command is used to declare enuerations 
+Enum is a user defined data type where we specify a set of values for a variable and the variable can only take one out of a small set of possible values
+the in setup function we need to declare the starting pint of the snake head i want to stat the game with snake head at the centre of the map so i will give set it as haf of width and half of height
+then i will give the dimentions of the fruit spawning by the randomcomand using rand()
+and at starting i will set the score as 0
+
