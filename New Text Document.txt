@@ -1,4 +1,4 @@
-we are going to start to make a simple snake game as a project to learn the basics of c++ 
+ we are going to start to make a simple snake game as a project to learn the basics of c++ 
 we'll be using dev c++ to code our game
 so now here we go
 to make a game basically we need 4 raw functions that are 
